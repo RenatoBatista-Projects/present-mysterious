@@ -1,0 +1,28 @@
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #d30808;
+    width:290px ;
+    height: 356px;
+    font-family: MontSerrat;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+button{
+    transition-duration: 0.7s;
+}
+
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    
+    
+}

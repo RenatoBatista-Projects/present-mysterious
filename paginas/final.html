@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/conteudo.css" rel="stylesheet">
+    <link href="../css/reset.css" referrerpolicy="stylesheet">
+    <link href="../css/card/card.css" rel="stylesheet">
+    <link href="../css/card/card.-conteudo-final.css" rel="stylesheet">
+    <link href="../css/card/card-titulo.css" rel="stylesheet">
+    <script src="../script.js" defer></script>
+</head>
+<body class="conteudoFinal" >
+    
+    <h1 id="anote" style="display: none;">Anote seu codigo</h1>
+
+    <section class="cardFinal">
+
+      
+        <h1 id="escolhas" style="display: none; margin-top:30px ; padding-top: 25px; color: black; width: 590px;height: 70px;
+         border: 1.2px solid black; border-radius: 20px;background-color: white;" class=""></h1>
+
+        <button id="gerarCodigo" class="card__conteudo__final" onclick="gerarRespostas()">
+            
+          
+            <h2 style="display: block;" id="sumirGerarBotao">Gerar um codigo</h2>
+
+        </button>
+    </section>   
+
+    <script>
+          
+        const gerarCodigo = document.getElementById('gerarCodigo');
+        const anote = document.getElementById('anote');
+        const sumirGerarBotao =document.getElementById('sumirGerarBotao')
+        const escolhas =document.getElementById('escolhas')
+
+        
+    
+        gerarCodigo.addEventListener('click', function () {
+
+        anote.style.display = 'block';
+        sumirGerarBotao.style.display = 'none';
+        gerarCodigo.style.display ='none';
+        escolhas.style.display = 'block';
+
+
+        });
+    </script>
+
+    <script>
+            
+        function gerarRespostas() {
+
+            const escolha1 = window.localStorage.getItem('escolha1');
+            const escolha2 = window.localStorage.getItem('escolha2');
+            const escolha3 = window.localStorage.getItem('escolha3');
+            const escolha4 = window.localStorage.getItem('escolha4');
+                        
+            const codigo = `${escolha1}-${escolha2}-${escolha3}-${escolha4}`;
+            const elementEscolha = document.getElementById('escolhas');
+            elementEscolha.innerText = codigo;
+}
+    </script>
+
+      <!--- <section style="display: flex;flex-direction: initial;" >
+       //     <a style="text-decoration: none; font-family: MontSerrat; color: white;" href="./presente01.html?pag=01">presente1</a>
+       // </section> -->
+
+        
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+.conteudo{
+    
+    margin-top: 10%;
+    text-align: center;
+   
+    background-color: #dbcaca;
+    width: 100%;
+   
+}
+
+.conteudo2{
+    
+    margin-top: 10%;
+    text-align: center;
+    background-color: #bea8a8;
+    width: 100%;
+   
+}
+
+.conteudo3{
+    
+    margin-top: 10%;
+    text-align: center;
+    background-color: #af9191;
+    
+    width: 100%;
+   
+}
+
+.conteudo4{
+    
+    margin-top: 10%;
+    text-align: center;
+   
+    background-color: #c99696;
+    width: 100%;
+   
+}
+
+.conteudoFinal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    text-align: center;
+   
+    background-color: #cf7e7e;
+    width: 100%;
+   
+}
+
+
+

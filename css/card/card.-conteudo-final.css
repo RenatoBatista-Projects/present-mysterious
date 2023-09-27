@@ -1,0 +1,33 @@
+.card__conteudo__final{
+    font-family: MontSerrat;
+    font-size: 2rem;
+    
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width:590px ;
+    height: 256px;
+    cursor:grab;
+    
+
+}
+
+.card__conteudo__final2{
+    font-family: MontSerrat;
+    font-size: 2rem;
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    width:590px ;
+    height: 256px;
+    cursor:grab;;
+
+}
+
+
+.card__conteudo__final button:hover{
+    cursor:grab;
+    color:#531702;
+}
+
+
