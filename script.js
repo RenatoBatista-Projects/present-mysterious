@@ -20,7 +20,7 @@ function capturarValor(event) {
 
     if(!pagina){
       window.localStorage.setItem("escolha1", escolhaCodigo);
-      window.location.href = 'file:///C:/Users/renat/OneDrive/%C3%81rea%20de%20Trabalho/transformar/paginas/presente02.html' + '?pag=02'
+      window.location.href = 'https://github.com/RenatoBatista-Projects/present-mysterious/blob/main/paginas/presente02.html' + '?pag=02'
       
     }  
 
