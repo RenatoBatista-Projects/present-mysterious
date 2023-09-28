@@ -20,23 +20,23 @@ function capturarValor(event) {
 
     if(!pagina){
       window.localStorage.setItem("escolha1", escolhaCodigo);
-      window.location.href = 'https://github.com/RenatoBatista-Projects/present-mysterious/blob/main/paginas/presente02.html' + '?pag=02'
+      window.location.href = 'https://renatobatista-projects.github.io/present-mysterious/paginas/presente02.html' + '?pag=02'
       
     }  
 
     if(pagina == '02'){
       window.localStorage.setItem("escolha2", escolhaCodigo);
-      window.location.href = 'file:///C:/Users/renat/OneDrive/%C3%81rea%20de%20Trabalho/transformar/paginas/presente03.html' + '?pag=03'
+      window.location.href = 'https://renatobatista-projects.github.io/present-mysterious/paginas/presente03.html' + '?pag=03'
     }
     
     if(pagina == '03'){
       window.localStorage.setItem("escolha3", escolhaCodigo);
-      window.location.href = 'file:///C:/Users/renat/OneDrive/%C3%81rea%20de%20Trabalho/transformar/paginas/presente04.html' + '?pag=04'
+      window.location.href = 'https://renatobatista-projects.github.io/present-mysterious/paginas/presente04.html' + '?pag=04'
     }
 
     if(pagina == '04'){
       window.localStorage.setItem("escolha4", escolhaCodigo);
-      window.location.href = 'file:///C:/Users/renat/OneDrive/%C3%81rea%20de%20Trabalho/transformar/paginas/final.html' + '?pag=final'
+      window.location.href = 'https://renatobatista-projects.github.io/present-mysterious/paginas/final.html' + '?pag=final'
     }
  
   });
